@@ -1,0 +1,39 @@
+.trustedBy {
+  margin-left: 120px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.trustedBy__title {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 40px;
+}
+
+.trustedBy__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trustedBy__icons > img {
+  height: 86px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 720px) {
+  .trustedBy {
+    margin-left: 56px;
+    margin-right: -60px;
+  }
+
+  .trustedBy__icons {
+    flex-direction: column;
+  }
+
+  .trustedBy__title {
+    text-align: center;
+    font-size: 30px;
+  }
+}

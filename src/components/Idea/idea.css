@@ -1,0 +1,35 @@
+.idea {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 218px;
+}
+
+.idea > img {
+  height: 40px;
+  object-fit: contain;
+  padding-bottom: 15px;
+}
+
+.idea__heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.idea__content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+  .idea {
+    height: 250px;
+    margin-left: 100px;
+  }
+}

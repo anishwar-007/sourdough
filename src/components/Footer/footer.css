@@ -1,0 +1,119 @@
+.footer {
+  width: 100%;
+  background-color: #242464;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 30px 0px;
+  color: white;
+  line-height: 30px;
+}
+
+.footer__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #242464;
+}
+
+.footer__top {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #242464;
+  line-height: 30px;
+}
+
+.footer__category {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #242464;
+  line-height: 30px;
+}
+
+.element__header {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #242464;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+  background-color: #242464;
+}
+
+.footer__icons img {
+  width: 22px;
+  object-fit: contain;
+  margin-right: 10px;
+  background-color: #242464;
+  color: white;
+}
+
+.footer__btn img {
+  width: 18px;
+  object-fit: contain;
+  left: 3px;
+  top: 19px;
+  background-color: white;
+  padding-right: 5px;
+}
+
+.footer__btn {
+  height: 56px;
+  width: 180px;
+  left: 934px;
+  top: 64px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px, 32px, 8px, 24px;
+  background-color: white;
+  color: #242464;
+  border-color: white;
+}
+
+@media only screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    margin-left: 1px;
+    padding-left: 68px;
+    padding-right: 84px;
+    width: 100%;
+  }
+
+  .footer__icons,
+  .footer__category,
+  .footer__top,
+  .footer__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__top {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .footer__btn {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}

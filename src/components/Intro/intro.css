@@ -1,0 +1,131 @@
+.intro {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.intro__container {
+  margin-left: 110px;
+}
+
+.intro__title {
+  font-size: 40px;
+  font-weight: 600;
+  /* line-height: 72px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+.intro__title--profile {
+  font-size: 40px;
+  font-weight: 600;
+  /* line-height: 72px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intro__data {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.intro__data--profile {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.intro__data--reverse {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 100px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intro__pic {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  margin-right: 120px;
+}
+
+.intro__pic--reverse {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  margin-left: 120px;
+}
+
+.secondary {
+  color: black;
+}
+
+.mybtns {
+  display: flex;
+  padding-left: -20px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  .mybtns {
+    flex-direction: column;
+  }
+
+  .intro {
+    flex-direction: column;
+    margin-left: 56px;
+    margin-right: -60px;
+  }
+
+  .intro__data {
+    font-size: 16px;
+    line-height: 25px;
+    margin-right: 0px;
+  }
+
+  .intro__title {
+    font-size: 35px;
+    font-size: 600;
+  }
+
+  .intro__title--profile {
+    font-size: 27px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .intro__data--profile {
+    text-align: center;
+    margin-left: 36px;
+    margin-right: 43px;
+    margin-top: 10px;
+  }
+
+  .intro__container {
+    margin-left: 30px;
+    border-radius: 16px;
+  }
+
+  .intro > img {
+    height: 250px;
+    margin-right: 0;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}

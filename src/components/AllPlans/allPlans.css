@@ -1,0 +1,17 @@
+.allPlans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+  .allPlans {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 220px;
+  }
+}
